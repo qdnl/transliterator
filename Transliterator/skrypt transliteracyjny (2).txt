@@ -1,0 +1,32 @@
+CZĘŚĆ 1. - odwrotnie jak w 1., z wyjątkiem j. Oprócz tego:
+ è -> е
+ ò -> ё
+ ù -> ю
+ à -> я
+ È -> Е
+ Ò -> Ё
+ Ù -> Ю
+ À -> Я
+
+CZĘŚĆ 2.
+Jeżeli przeczytaiśmy j, to nie konwertujemy, za to czytamy kolejną literę. Z połączenia poprzedniej i obecnej litery otrzymujemy:
+je > е
+jo -> ё
+ju -> ю
+itd.
+
+Czytanie liter:
+A = litera poprzedzająca czytaną
+B = czytana litera
+i = licznik (kontrola)
+dopóki B != koniec tekstu // można np. porównywać z "i"
+	jeżeli i = 0
+		A := spacja
+	inaczej
+		A := B
+	czytaj B
+	jeżeli B € {я, е, ё, ю}
+		realizuj CZĘŚĆ 2. //sprawdź, czy A € {а, э, и, о, у, ы, ъ, ь, [spacja]}
+	inaczej
+		realizuj CZĘŚĆ 1.
+koniec dopóki

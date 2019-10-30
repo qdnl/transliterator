@@ -1,0 +1,41 @@
+Транслитerator jest programem umożliwiającym konwersję tekstu w języku rosyjskim na zapis z użyciem alfabetu łacińskiego [i na odwrót].
+
+Sczególną cechą programu Транслитerator jest zastosowanie innowacyjnego sposobu zapisu liter rosyjskich w alfabecie łacińskim w taki sposób, aby ułatwić czytanie tekstu osobom używającym języka rosyjskiego jak ojczystego, osobom uczącym się języka, a także tym, którzy dotychczas nie mieli z nim kontaktu. Obecnie stosowany i przyjęty powszechnie na całym świecie schemat transliteracji dla języka rosyjskiego opiera się na próbie zapisu brzmienia tekstu z użyciem zasad fonetyki języka angielskiego. Jedną z największych wad tego rozwiązania jest to, że tego typu zapis nie uwzględnia zjawisk fonetycznych języka rosyjskiego, których nie ma w angielskim.
+
+Litera rosyjska	Litera łacińska
+А а	A a
+Б б	B b
+В в	V v
+Г г	G g
+Д д	D d
+Е е	Je je/È è*
+Ё ё	Jo jo/Ò ò*
+Ж ж	Ž ž
+З з	Z z
+И и	I i
+Й й	J j
+К к	K k
+Л л	L l
+М м	M m
+Н н	N n
+О о	O o
+П п	P p
+Р р	R r
+С с	S s
+Т т	T t
+У у	U u
+Ф ф	F f
+Х х	H h
+Ц ц	C c
+Ч ч	Č č
+Ш ш	Š š
+Щ щ	Ş ş/Šč šč^
+Ъ ъ	Ū ū
+Ы ы	Y y
+Ь ь	Ī ī
+Э э	E e
+Ю ю	Ju ju/Ù ù*
+Я я	Ja ja/À à*
+
+* Pierwszy wariant zapisu stosuje się przed samogłoskami, przed literami ъ i ь oraz na początku słów. W przeciwnym razie stosuje się drugi wariant.
+^ Podane warianty są równoprawne, jednak po wybraniu jednego z nich należy go używać konsekwentnie. W Транслитeratorze będzie można wybrać używany domyślnie wariant.

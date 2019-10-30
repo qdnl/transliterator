@@ -1,0 +1,96 @@
+Mechanizm skryptu transliteracyjnego:
+CZĘŚĆ 1.
+а -> a
+б -> b
+в -> v
+г -> g
+д -> d
+ж -> ž
+з -> z
+и -> i
+й -> j
+к -> k
+л -> l
+м -> m
+н -> n
+о -> o
+п -> p
+р -> r
+с -> s
+т -> t
+у -> u
+ф -> f
+х -> h
+ц -> c
+ч -> č
+ш -> š
+щ -> ş
+ъ -> ū
+ы -> y
+ь -> ī
+э -> e
+А -> A
+Б -> B
+В -> V
+Г -> G
+Д -> D
+Ж -> Ž
+З -> Z
+И -> I
+Й -> J
+К -> K
+Л -> L
+М -> M
+Н -> N
+О -> O
+П -> P
+Р -> R
+С -> S
+Т -> T
+У -> U
+Ф -> F
+Х -> H
+Ц -> C
+Ч -> Č
+Ш -> Š
+Щ -> Ş
+Ъ -> Ū
+Ы -> Y
+Ь -> Ī
+Э -> E
+
+CZĘŚĆ 2.
+Jeżeli przed literą stoi mała litera oznaczająca samogłoskę, znak ъ lub ь, lub spacja:
+е -> je
+ё -> jo
+ю -> ju
+я -> ja
+Е -> Je
+Ё -> Jo
+Ю -> Ju
+Я -> Ja
+W przeciwnym razie:
+е -> è
+ё -> ò
+ю -> ù
+я -> à
+Е -> È
+Ё -> Ò
+Ю -> Ù
+Я -> À
+
+Czytanie liter:
+A = litera poprzedzająca czytaną
+B = czytana litera
+i = licznik (kontrola)
+dopóki B != koniec tekstu // można np. porównywać z "i"
+	jeżeli i = 0
+		A := spacja
+	inaczej
+		A := B
+	czytaj B
+	jeżeli B € {я, е, ё, ю}
+		realizuj CZĘŚĆ 2. //sprawdź, czy A € {а, э, и, о, у, ы, ъ, ь, [spacja]}
+	inaczej
+		realizuj CZĘŚĆ 1.
+koniec dopóki
